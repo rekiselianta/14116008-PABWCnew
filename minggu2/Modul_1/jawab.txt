@@ -1,0 +1,7 @@
+- Tidak ada, karena HTML banyak toleransi error
+- Ketika 5 detik maka page akan merefresh otomatis dan langusung membuka google.
+- thead : adalah head dari table tersebut.
+   tbody : adalah body dari table tersebut.
+   tr : adalah tag untuk mengisi row dari table
+   th : adalah header dari table
+   td : adalah tag untuk mengisi data dalam table
