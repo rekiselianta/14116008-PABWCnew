@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {
+  background-image: url('Untitled-22.jpg');
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  position: relative;
+  align-items: center;
+  overflow: hidden;
+  border-bottom: 2px solid #ededed;
+  background-color: white;
+  padding: 5px 10px;
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.header a.logo {
+  font-family: Helvetica neue;
+  margin-left: 80px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.header a:hover {
+  border-radius: 0px;
+  background-color: #f1f1f1;
+  color: black;
+}
+.header a.active {
+  border-radius: 0px;
+  border-bottom: 2px solid red;
+  color: red;
+}
+.header-right {
+  font-family: gotham;
+  margin-right: 80px;
+  float: right;
+  font-weight: light;
+}
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+  h1 {
+    font-family: gotham;
+    font-weight: bold;
+  }
+  p {
+    font-family: gotham;
+    font-weight: light;
+  }
+  .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(122, 122, 122);
+   color: white;
+   text-align: left;
+}
+</style>
+
+</head>
+<body>
+
+<div class="header">
+  <a href="#default" class="logo">Pemrograman Web</a>
+  <div class="header-right">
+    <a href="home.html">Home</a>
+    <a href="Desain.html">Contoh Desain</a>
+    <a class="active" href="#about">kontak</a>
+    <a href="Arsip.html">Arsip</a>
+  </div>
+</div>
+
+<div style="padding-left: 100px;">
+  <br><br><br><br>
+  <h1>kontak</h1>
+  <p>Email      : reki.14116008@student.itera.ac.id
+  <br><br>Phone     : 082020020
+  <br><br>Address   : Lampung
+  <br><br>Instagram : reki
+  <br><br>Facebook  : reki</p>
+
+</div>
+<div class="footer">
+  <p style="text-align: center;">Copyright</p>
+</div>
+
+</body>
+</html>
